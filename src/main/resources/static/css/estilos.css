@@ -1,0 +1,36 @@
+/* Cambia la altura*/ 
+.carousel {
+    width: 600px; /* Ancho */
+    height: 600px; /* Altura */
+    margin: 0 auto; /* Center */
+}
+
+/* Ajusta el item del carousel */
+/*
+.carousel-inner {
+    height: 100%; /* Hace que el item use toda la altura */
+/*}*/
+
+/* Imagenes del carousel */
+.carousel-item img {
+    height: 600px; /* Altura */
+    object-fit: cover; /* Hace que la imagen entre sin recortar */
+}
+
+/* Agrega un margen al contenedor */
+.container-sm {
+    margin-top: 20px; /* Margen arriba */
+    margin-bottom: 20px; /* Margen abajo */
+}
+
+/* Centra los videos*/
+.embed-responsive {
+    display: flex;
+    justify-content: center;
+}
+
+/*Ajusta el tamano del video*/
+.embed-responsive-item {
+    width: 600px;
+    height: 400px;
+}
